@@ -1,1 +1,23 @@
-theme: jekyll-theme-hacker
+# Site settings
+title: cbpetersen
+description: Blog and portfolio
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: cbpetersen
+user_description: Technology, programming, games, trail running, kayaking, hiking
+user_title: System Developer
+email: cb.petersen@gmail.com
+twitter_username: cb_petersen
+github_username:  cbpetersen
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+markdown: kramdown
+
+exclude: ['package.json', 'src' , 'node_modules']
+
+permalink: /:year/:month/:day/:title
