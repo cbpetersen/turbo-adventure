@@ -5,7 +5,7 @@
     {% for post in site.posts %}
     <div class="row user-projects">
       <div class="six columns images">
-        <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
+        <img alt="{{ post.featuredImage }}" src="{{ "/assets/img/" | prepend: site.baseurl | append: post.featuredImage }}" />
       </div>
       <div class="six columns">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>

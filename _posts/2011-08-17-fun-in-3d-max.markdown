@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Fun in 3d Max"
+date: 2011-08-17 20:51:19
+tags: 3d Max
+comments: true
+published: true
+featured: true
+featuredImage: "Legomand1.png"
+description: "Fun in 3d Max"
+---
+
+Found some blueprints of a Lego<sup>TM</sup> man and a sword, and modeled after that
+
+![Legomand one]({{ site.url }}/assets/img/Legomand1.PNG){:class="medium media"}
+![Legomand two]({{ site.url }}/assets/img/Legomand2.PNG){:class="medium media"}
+![Sword]({{ site.url }}/assets/img/sword.PNG){:class="medium media"}

@@ -349,4 +349,13 @@ body {
             font-size: 18px;
         }
     }
+
+    img {
+      vertical-align: 'center';
+
+      .medium-size {
+        max-height: 400px;
+        max-width: 400px;
+      }
+    }
 }
