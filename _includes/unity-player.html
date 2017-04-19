@@ -1,0 +1,17 @@
+<div class="media" id="webPlayerFrame"></div>
+<script language="javascript" type="text/javascript">
+  function startUnity() {
+    document.getElementById('webPlayerFrame').innerHTML = '"<iframe id=myFrame name="myFrame" src="{{ include.file | prepend: site.baseurl }}" marginheight="0" frameborder="0" height="450" width="625" scrolling="no">'
+    + '<\/iframe>'
+      + '<p style=font-size:small;text-align:center>'
+       + '<a class=\"media\" href=javascript:stopUnity(); title=Close the game\">Close the game<\/a>'
+      +'<\/p>"'
+  }
+  function stopUnity() {
+    document.getElementById('webPlayerFrame').innerHTML =
+      '<a href="javascript:startUnity();">'
+       + '<img id="Img1" alt="Unity Web Player." src="{{ include.image | prepend: site.baseurl }}" width="600" height="450" />'
+     + '</a>'
+  }
+  stopUnity()
+</script>
