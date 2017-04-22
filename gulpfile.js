@@ -30,6 +30,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
  * Build the jekyll site and launch browser-sync
  */
 gulp.task('browser-sync', ['jekyll-build'], function() {
+
 	browserSync({
 		server: {
 			baseDir: '_site'

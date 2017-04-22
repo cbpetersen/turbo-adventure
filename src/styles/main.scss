@@ -9,6 +9,7 @@ $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
+$toolbar-height:   125px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -19,10 +20,10 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    768px;
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        768px;
 
 // Custom variables
 $share-color:      #bbc7cc;
@@ -85,7 +86,7 @@ body {
     }
 }
 
-#particles-js {
+.particle-header {
   background: $main;
   display: block;
   vertical-align: bottom;
@@ -95,48 +96,125 @@ body {
   background-size: cover;
   background-attachment: fixed;
   .particles-js-canvas-el {
-    width:100vw !important;
-    height:100vh !important;
+      width:100vw !important;
+      height:100vh !important;
+    }
+
+  .content {
+    z-index: 1;
+    text-align: center;
+    color:#FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    .site-title {
+      font-size: 50px;
+      display: block;
+      line-height: 1;
+      @media only screen and (min-width:$cut){
+        margin: 0;
+        font-size: 100px;
+      }
+    }
+    .site-description {
+      font-size: 20px;
+      display: block;
+      line-height: 1;
+      margin: 5px 0 10px 0;
+      @media only screen and (min-width:$cut){
+        font-size: 40px;
+      }
+    }
+    .link {
+      color: #FFF;
+      display: inline-flex;
+      justify-content: space-between;
+      text-decoration: none;
+      font-size: 15px;
+      margin: 10px;
+      @media only screen and (min-width:$cut){
+        font-size: 20px;
+      }
+    }
   }
 }
 
-.content {
-  z-index: 1;
-  text-align: center;
-  color:#FFF;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: 0 auto;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  .site-title {
-    font-size: 50px;
-    display: block;
-    line-height: 1;
-    @media only screen and (min-width:$cut){
-      margin: 0;
-      font-size: 100px;
-    }
+.particle-header-compact {
+  background: $main;
+  display: block;
+  width: 100vw;
+  height: $toolbar-height;
+  max-height: $toolbar-height;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .particles-js-canvas-el {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    width:100vw !important;
+    height:$toolbar-height !important;
   }
-  .site-description {
-    font-size: 20px;
-    display: block;
-    line-height: 1;
-    margin: 5px 0 10px 0;
-    @media only screen and (min-width:$cut){
-      font-size: 40px;
-    }
-  }
-  .link {
-    color: #FFF;
-    display: inline-flex;
+
+  .content {
+    position: relative;
+    top: 0;
+    z-index: 1;
+    color:#FFF;
+    margin: 0 auto;
+    display: flex;
+    min-height: $toolbar-height;
+    max-height: $toolbar-height;
     justify-content: space-between;
-    text-decoration: none;
-    font-size: 15px;
-    margin: 10px;
-    @media only screen and (min-width:$cut){
-      font-size: 20px;
+    .site-title {
+      color: #FFF;
+      display: flex;
+      align-self: center;
+      text-decoration: none;
+      font-size: 10vw;
+      line-height: 1;
+      margin-left: 0.5vw;
+      user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+      @media only screen and (min-width:$cut){
+        font-size: 100px;
+        margin-left: 10px;
+      }
+    }
+    .right-aligned {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      align-self: center;
+      margin-right: 0.5vw;
+      @media only screen and (min-width:$cut) {
+        margin-right: 10px;
+      }
+      .icons-header {
+        display: inline-flex;
+      }
+      .link {
+        color: #FFF;
+        display: inline-flex;
+        justify-content: space-between;
+        text-decoration: none;
+        font-size: 3vw;
+        margin: 0.5vw;
+        user-select: none;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+        @media only screen and (min-width:$cut) {
+          font-size: 20px;
+          margin: 10px;
+        }
+      }
     }
   }
 }
