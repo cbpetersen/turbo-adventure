@@ -1,13 +1,14 @@
 {
-  "name": "particle",
+  "name": "cbpetersen-blog",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp"
   },
-  "author": "Nathan Randecker",
+  "author": "Christoffer Bo Petersen",
   "license": "ISC",
   "dependencies": {
     "browser-sync": "^2.18.6",
