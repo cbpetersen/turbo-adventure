@@ -305,6 +305,7 @@ body {
   img {
     max-width: 100%;
     height: auto;
+    max-height: 350px;
     border-radius: 5px;
   }
   h5 {
@@ -317,13 +318,17 @@ body {
   p {
     margin-right: 5px;
   }
-
-
+  .images {
+    float: right;
+  }
 }
 
-.images:nth-child(2n+1) {
-  @media only screen and (min-width: $cut) {
-    float: right;
+.user-projects:nth-child(2n+1) {
+  .images {
+    float: left;
+    @media only screen and (max-width: $cut) {
+      float: right;
+    }
   }
 }
 
