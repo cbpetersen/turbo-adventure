@@ -3,7 +3,7 @@ layout: post
 title: "Space Invaders"
 date: 2011-08-29 21:32:11
 tags: Games C# Unity3d
-featuredImage: "spaceinvaders.PNG"
+featuredImage: "Spaceinvaders.png"
 comments: true
 published: true
 featured: 1
@@ -22,4 +22,4 @@ if it says error while loading the game, try refresh the page, it seems to help.
 
 Note, after my web server change the high score is broken, as i haven't put up a web service and database for the high score list
 
-{% include unity-player.html image="/assets/img/spaceinvaders.PNG" file="/assets/content/WebPlayer_spaceinvaders.html" height="450" width="600" %}
+{% include unity-player.html image="/assets/img/Spaceinvaders.png" file="/assets/content/WebPlayer_spaceinvaders.html" height="450" width="600" %}
