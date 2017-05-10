@@ -8,8 +8,12 @@ baseurl: /turbo-adventure # the subpath of your site, e.g. /blog
 username: cbpetersen
 user_description: Technology, programming, games, trail running, kayaking, hiking
 user_title: System Developer
+user_img: profilePictureAU.jpg
 email: cb.petersen@gmail.com
 twitter_username: cb_petersen
+instagram_username: cb.petersen
+linkedin_username: christoffer-bo-petersen-b3169726
+facebook_username: christoffer.petersen.52
 github_username:  cbpetersen
 
 # Google-analytics
