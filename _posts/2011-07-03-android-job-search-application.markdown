@@ -11,7 +11,9 @@ featuredImage: "job-search.jpeg"
 
 Demo video of my final exam project, made when <a href="http://www.mikkelpedersen.dk/" target="_blank">Mikkel Damgaard Pedersen</a> and my self were interns at <a href="http://www.jobindex.dk/" target="_blank">Jobindex A/S</a>
 
-{% video https://www.dropbox.com/s/godkje5jfjr0qma/demo.mp4 650 400 "/assets/img/job-search.jpeg" | prepend: site.baseurl %}
+<video width='650' height='400' preload='none' controls poster="{{'/assets/img/job-search.jpeg' | prepend: site.baseurl}}">
+  <source src="https://www.dropbox.com/s/godkje5jfjr0qma/demo.mp4" type="video/mp4; codecs=\"avc1.42E01E, mp4a.40.2\""/>
+</video>
 
 <div>
 <a href="https://www.dropbox.com/s/godkje5jfjr0qma/demo.mp4?dl=0" target="_blank">Direct link</a><br><video width="600" controls="controls"><source src="https://www.dropbox.com/s/godkje5jfjr0qma/demo.mp4" type="video/mp4"><video></div>
