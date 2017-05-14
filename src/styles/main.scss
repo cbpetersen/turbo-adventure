@@ -298,6 +298,10 @@ body {
   text-align: center;
   font-size: 16px;
   margin: 10px auto;
+
+  .user-img {
+    max-width: 30%;
+  }
 }
 
 .user-projects {
@@ -333,8 +337,6 @@ body {
 }
 
 .project-link {
-  display: block;
-  width: 100px;
   margin: 10px 0px;
   padding: 5px;
   color: $main;
@@ -436,7 +438,7 @@ body {
     img {
       vertical-align: 'center';
 
-      .medium-size {
+      &.medium {
         max-height: 400px;
         max-width: 400px;
       }
