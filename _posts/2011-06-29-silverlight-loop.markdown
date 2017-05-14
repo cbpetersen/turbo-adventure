@@ -10,4 +10,4 @@ published: true
 
 I had to try out the layout-path there were introduced with Microsoft Expression 4 for Silverlight applications, I really think it can be of use in a lot of ways. Here I simply put the car in the path container and made it move along the curved path.
 
-![Legomand two]({{ site.url }}/assets/img/loopyloop.PNG){:class="medium media"}
+![LoopyLoop]({{ site.url }}/assets/img/loopyloop.PNG){:class="medium media"}
