@@ -13,6 +13,6 @@ I went back and looked at my Tetris code and thought it could be so much better.
 
 It contains all basic rules, with rules similar to the gameboy version.
 
-![tetris-term]({{ site.url }}/assets/img/tetris-term.png){:class="medium media"}
+![tetris-term]({{ site.baseurl }}/assets/img/tetris-term.png){:class="medium media"}
 
 Code can be found on <a href="https://github.com/cbpetersen/tetris-engine" target="_blank">Github</a>

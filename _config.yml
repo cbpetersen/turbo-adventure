@@ -1,7 +1,7 @@
 # Site settings
 title: cbpetersen
 description: Blog and portfolio
-baseurl: /turbo-adventure # the subpath of your site, e.g. /blog
+baseurl: https://cb-p.dk # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings

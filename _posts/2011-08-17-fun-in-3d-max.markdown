@@ -12,6 +12,6 @@ description: "Fun in 3d Max"
 
 Found some blueprints of a Lego<sup>TM</sup> man and a sword, and modeled after that
 
-![Legomand one]({{ site.url }}/assets/img/Legomand1.PNG){:class="medium media"}
-![Legomand two]({{ site.url }}/assets/img/Legomand2.PNG){:class="medium media"}
-![Sword]({{ site.url }}/assets/img/sword.PNG){:class="medium media"}
+![Legomand one]({{ site.baseurl }}/assets/img/Legomand1.PNG){:class="medium media"}
+![Legomand two]({{ site.baseurl }}/assets/img/Legomand2.PNG){:class="medium media"}
+![Sword]({{ site.baseurl }}/assets/img/sword.PNG){:class="medium media"}

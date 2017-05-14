@@ -13,7 +13,7 @@ In order to separate the learning from the game engine it self i created a nodej
 
 the api is written to be generic and will allow different games and algorithms and uses mongoDb for storage
 
-![tetris-term]({{ site.url }}/assets/img/tetris-term.png){:class="medium media"}
+![tetris-term]({{ site.baseurl }}/assets/img/tetris-term.png){:class="medium media"}
 
 
 Code can be found on <a href="https://github.com/cbpetersen/tetris-ml-evolutionary-api" target="_blank">Github</a>
