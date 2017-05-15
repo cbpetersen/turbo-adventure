@@ -18,7 +18,7 @@ github_username:  cbpetersen
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-24256329-1"
 
 markdown: kramdown
 
