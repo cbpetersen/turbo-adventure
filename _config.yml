@@ -6,7 +6,7 @@ baseurl: https://cb-p.dk # the subpath of your site, e.g. /blog
 
 # User settings
 username: cbpetersen
-user_description: Technology, programming, games, trail running, kayaking, hiking
+user_description: Technology, programming, games, trail running, cycling, hiking, woodworking
 user_title: System Developer
 user_img: profilePictureAU.jpg
 email: cb.petersen@gmail.com
